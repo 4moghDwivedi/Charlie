@@ -15,6 +15,11 @@ Check out this video to learn more about the functionality of this instrument an
 
 * upload the code onto your Teensy 4.0 using Arduino IDE
 
+* further reading
+    * [photocell setup](https://learn.adafruit.com/photocells/arduino-code)
+    * [ultrasonic sensor](https://projecthub.arduino.cc/Isaac100/getting-started-with-the-hc-sr04-ultrasonic-sensor-7cabe1)
+    * [millis() instead of delay()](https://www.norwegiancreations.com/2017/09/arduino-tutorial-using-millis-instead-of-delay/)
+
 ### Max/MSP setup
 * Max 8.6 or later should work.
 

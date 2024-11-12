@@ -2,6 +2,7 @@
 // https://amoghdwivedi.com
 // https://github.com/4moghDwivedi/Charlie
 
+
 const int trigPin = 9;
 const int echoPin = 10;
 
@@ -49,6 +50,8 @@ Period heaterToggle;
 
 int photocellPin = 14;     // the cell and 10K pulldown are connected to a0
 int photocellReading;     // the analog reading from the sensor divider
+
+
 
 float duration, distance;
 
