@@ -16,7 +16,7 @@ Check out this video to learn more about the functionality of this instrument an
 * upload the code onto your Teensy 4.0 using Arduino IDE
 
 * further reading
-    * [photocell setup](https://learn.adafruit.com/photocells/arduino-code)
+    * [photocell setup](https://learn.adafruit.com/photocells/overview)
     * [ultrasonic sensor](https://projecthub.arduino.cc/Isaac100/getting-started-with-the-hc-sr04-ultrasonic-sensor-7cabe1)
     * [millis() instead of delay()](https://www.norwegiancreations.com/2017/09/arduino-tutorial-using-millis-instead-of-delay/)
 
@@ -26,3 +26,8 @@ Check out this video to learn more about the functionality of this instrument an
 * copy files the files in the Library folder into your Max Library.
 
 * install the rnbo guitar pedals through the Package Manager in Max. 
+
+### Further development
+* Further testing needs to be done with the the photocell. Currently, a 10kΩ pulldown resistor is being used, which "will quickly saturate", as per the [Adafruit](https://learn.adafruit.com/photocells/using-a-photocell). Replacements can be made in order to "detect bright light differences better". This would be suitable for more accuracies anytime before dusk, which is when most people are in the esplanade anyway.
+* One year may be a slightly ambitious duration length, considering the practicalities of setting the instrument. Another possibilities would be to host the installation at various points in the year, in order to have different movements (similar to "4 seasons"). 
+* A laptop setup itself is slightly awkward. Other possible solutions include using Daisy/Raspberry Pi microcontrollers, and potentially foregoing real time synthesis in favor of mixing between bounced files. 
