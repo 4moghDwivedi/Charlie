@@ -5,7 +5,7 @@ composed and programmed by [Amogh Dwivedi](amoghdwivedi.com)
 ### About
 This was a final project for [David Cardona's](https://college.berklee.edu/faculty/david-cardona) Digital Instrument Building course, finished in May 2024, with some revisions made in November 2024. 
 
-Check out this video to learn more about the functionality of this instrument and composition.
+Check out [this video](https://youtu.be/W-kyIR-GLG4) to learn more about the functionality of this instrument and the compositional techniques I used.
 
 ### Microcontroller setup
 
@@ -28,6 +28,6 @@ Check out this video to learn more about the functionality of this instrument an
 * install the rnbo guitar pedals through the Package Manager in Max. 
 
 ### Further development
-* Further testing needs to be done with the the photocell. Currently, a 10kΩ pulldown resistor is being used, which "will quickly saturate", as per the [Adafruit](https://learn.adafruit.com/photocells/using-a-photocell). Replacements can be made in order to "detect bright light differences better". This would be suitable for more accuracies anytime before dusk, which is when most people are in the esplanade anyway.
+* Further testing needs to be done with the the photocell. Currently, a 10kΩ pulldown resistor is being used, which "will quickly saturate", as per the [Adafruit resource on photocells](https://learn.adafruit.com/photocells/using-a-photocell). Replacements can be made in order to "detect bright light differences better". This would be suitable for more accuracies anytime before dusk, which is when most people are in the esplanade anyway.
 * One year may be a slightly ambitious duration length, considering the practicalities of setting the instrument. Another possibilities would be to host the installation at various points in the year, in order to have different movements (similar to "4 seasons"). 
 * A laptop setup itself is slightly awkward. Other possible solutions include using Daisy/Raspberry Pi microcontrollers, and potentially foregoing real time synthesis in favor of mixing between bounced files. 
