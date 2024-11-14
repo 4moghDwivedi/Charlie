@@ -5,7 +5,7 @@ composed and programmed by [Amogh Dwivedi](amoghdwivedi.com)
 ### About
 This was a final project for [David Cardona's](https://college.berklee.edu/faculty/david-cardona) Digital Instrument Building course, finished in May 2024, with some revisions made in November 2024. 
 
-Check out [this video](https://youtu.be/W-kyIR-GLG4) to learn more about the functionality of this instrument and the compositional techniques I used.
+Check out [this video](https://youtu.be/u3bhTx4QBjI) to learn more about the functionality of this instrument and the compositional techniques I used.
 
 ### Microcontroller setup
 
